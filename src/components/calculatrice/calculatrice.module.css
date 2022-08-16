@@ -1,0 +1,19 @@
+
+.calculatrice div {
+    display: flex;
+    margin: 5px 20px;
+}
+
+.calculatrice > div > label::after {
+    content: ':';
+    margin-left: 1ch;
+    margin-right: 1ch;
+}
+
+.calculatrice > div > input {
+    flex-grow: 1;
+}
+
+.calculatrice > div > button[type=submit] {
+    margin-right: 10px;
+}
